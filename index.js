@@ -4,7 +4,6 @@ import { crearCards } from "./operaciones.js";
 
 
 
-
 getDigimons()
     .then( digimones => crearCards(digimones))
     .catch( error => console.log(`El error es: ${error}`))
